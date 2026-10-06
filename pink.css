@@ -22,12 +22,10 @@ body {
   color: #ffcdb2;
 }
 
-h1 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  line-height: 1.25;
+header {
   padding: 3rem 0 1rem 0;
 }
+
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -57,6 +55,10 @@ a:hover {
   margin: 3px;
   margin-top: 4px;
   margin-bottom: 4px;
+}
+
+.centerbox {
+	text-align: center;
 }
 
 .boxborder {
@@ -90,4 +92,15 @@ a:hover {
 .moth:hover {
   animation: fadeIn 5s;
   opacity: 1;
+}
+
+.funkyborder {
+	border-width: 9px;
+	padding: 10px;
+	width: 650px;
+	border-style: solid;
+	border-image: url("images/design/funky_border_blue.png") 9 fill round;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
 }

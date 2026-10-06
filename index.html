@@ -20,10 +20,10 @@
       <p>Insane!!</p>
     </header>
     <div class="box">
-      <h3>
-        Im current in the process of converting my website off of react/vercel
-        back onto basic html because I dont need nunna that!!
-      </h3>
+      <span><img src="images/design/construction.gif" />
+        Im currently in the process of converting my website off of
+        react/vercel back onto basic html because I dont need nunna that!!
+      </span>
     </div>
     <div style="display: flex; flex-direction: row">
       <div style="display: flex; flex-direction: column">
@@ -34,6 +34,10 @@
             point I would like to host my page locally but uptime on my
             personal computer is not great.
           </p>
+        </div>
+        <div class="box">
+          <h3>Ramblings of the Deranged</h3>
+          <a href="/fuck_rokos.html">Fuck AI</a>
         </div>
         <div class="box">
           <h3>Projects</h3>
@@ -73,13 +77,12 @@
             boring stuff like bug fixes and refactors. I&apos;ve ported so
             many TGstation prs I have lost count.
           </p>
-          <div class="flex h-[300px] flex-col">
-            <img src="/images/barrelnew.png" style="width: 500px" class="boxborder h-full w-[500px] drop-shadow-xl"
-              alt="Barrel Class Ship" />
+          <div>
+            <img src="/images/barrelnew.png" style="width: 500px" class="boxborder" alt="Barrel Class Ship" />
           </div>
         </div>
       </div>
-      <div style="display: flex; flex-direction: column">
+      <div style="width: 20vw; display: flex; flex-direction: column">
         <div class="m-[5px] flex flex-col items-center text-center">
           <h3>Discord</h3>
           <p>_fallcon</p>
@@ -99,11 +102,44 @@
             height="{100}" alt="I'm a Pixie Frog!" unoptimized />
         </a>
 
-        <a href="https://shiptest.net/"><img src="/images/shiptest-button.webp"
-            alt="A pixel-art retro web button showing the shiptest logo (sillouhette of a ship in front of a planet eclipsing a star) next to the words 'Shiptest 13' and the BYOND logo." /></a>
-        <a href="https://dimden.dev/"><img src="https://dimden.dev/services/images/88x31.gif" /></a>
-        <a href="https://notbyai.fyi" target="_blank"><img src="/images/created-by-a-human.png"
-            style="margin-right: 30px" /></a>
+        <marquee scrollamount="3" loop="infinite" direction="right" id="buttons-sites">
+          <a href="https://turbuggy.neocities.org/"><img
+              src="https://file.garden/Zh8StECMyjK48V0O/Site%20Buttons/turbuggy_button.gif" /></a>
+          <a href="https://dimden.dev/"><img src="https://dimden.dev/services/images/88x31.gif" /></a>
+          <a href="https://stellers.gay/"><img
+              alt="An animated badge showing a pixelated sleeping blue jay raptor-creature. Credit to Rylie/RyeRice!"
+              src="https://stellers.gay/_app/immutable/assets/stellersbutton.Caqq1_SY.webp" /></a>
+          <a href="https://shiptest.net/"><img src="/images/badges/shiptest-button.webp"
+              alt="A pixel-art retro web button showing the shiptest logo (sillouhette of a ship in front of a planet eclipsing a star) next to the words 'Shiptest 13' and the BYOND logo." /></a>
+        </marquee>
+        <marquee scrollamount="3" loop="infinite" id="buttons-misc">
+          <img width="88" height="31" src="images/badges/button_no_ai_allowed.gif" />
+          <img width="88" height="31" src="images/badges/best_viewed_with_eyes.gif" />
+          <img width="88" height="31" src="images/badges/drpepper.gif" />
+          <img width="88" height="31" src="images/badges/1love.png" />
+          <img width="88" height="31" src="images/badges/apocalypse_now.gif" />
+          <img width="88" height="31" src="images/badges/1neo18.gif" />
+        </marquee>
+
+        <!-- <div class="box centerbox" style="margin-top: 10px">
+          <img id="my-button" src="/images/badges/88x31.gif" /><br /><br />
+          <textarea style="width: 155px" readonly="">
+&lt;a href="https://fallcon.neocities.org/"&gt;&lt;img src="https://fallcon.neocities.org/images/badges/88x31.gif"&gt;&lt;/a&gt;</textarea><br />
+          <span style="margin-top: 5px; display: block">DO hotlink my button!
+            <span style="cursor: pointer" onclick="
+                  document.getElementById('why-hotlink').hidden =
+                    !document.getElementById('why-hotlink').hidden
+                ">[?]</span>
+            <div id="why-hotlink" style="font-size: 12px" hidden="">
+              <br />
+              <span>
+                You might see people saying that hotlinking is bad.<br />
+                I want to be able to change my button any time I want, without
+                having to ask people to change it.<br />
+              </span>
+            </div>
+          </span>
+        </div> -->
       </div>
     </div>
     <iframe src="//incr.easrng.net/badge?key=abbyapoc" style="background: url(//incr.easrng.net/bg.gif)"
