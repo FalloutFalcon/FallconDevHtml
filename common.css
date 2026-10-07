@@ -1,0 +1,162 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Background animation - Credit to AffectedArc07 from the SS13 WebMap https://affectedarc07.github.io/SS13WebMap/ */
+@keyframes animateBackground {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -960px 0;
+  }
+}
+
+.layer1,
+.layer2,
+.layer3 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+.layer1 {
+  background-image: url("images/layer1.webp");
+  animation: animateBackground 240s linear infinite;
+}
+
+.layer2 {
+  background-image: url("images/layer2.webp");
+  animation: animateBackground 160s linear infinite;
+}
+
+.layer3 {
+  background-image: url("images/layer3.webp");
+  animation: animateBackground 80s linear infinite;
+}
+
+
+body {
+  background: #25212c;
+  background-image: url("images/badges/space_by_pixelbank.jpg");
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: auto;
+  font-family: system-ui, sans-serif;
+  color: #ffcdb2;
+}
+
+header {
+  padding: 3rem 0 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+a {
+  font-style: italic;
+  color: #e5989b;
+  padding: 0 0.25rem;
+}
+
+a:hover {
+  color: #b5838d;
+}
+
+.mainbox {
+  width: 90vw;
+}
+
+.box {
+  background: #635e6b;
+  border: #e5989b 2px solid;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.15);
+  padding: 5px;
+  margin: 3px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.centerbox {
+  text-align: center;
+}
+
+.boxborder {
+  border: #e5989b 3px solid;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.15);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted #d37175;
+  cursor: pointer;
+}
+
+/* Tooltip text */
+.tooltiptext {
+  visibility: hidden;
+  /* Hidden by default */
+  width: 130px;
+  background: #534e5c;
+  box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  /* Ensure tooltip is displayed above content */
+}
+
+/* Show the tooltip text on hover */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.moth {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  width: 5vw;
+}
+
+.moth:hover {
+  animation: fadeIn 5s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
