@@ -81,7 +81,6 @@ h4 {
 a {
   font-style: italic;
   color: #e5989b;
-  padding: 0 0.25rem;
 }
 
 a:hover {
@@ -151,6 +150,22 @@ a:hover {
   opacity: 1;
 }
 
+.norg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  width: 5vw;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+.norg:hover {
+  animation: fadeIn 5s;
+  opacity: 1;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -159,4 +174,16 @@ a:hover {
   100% {
     opacity: 1;
   }
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+    padding: 0 0.25rem;
+}
+
+.grow:hover {
+  transform: scale(1.05) translateY(-2px);
 }
