@@ -8,8 +8,8 @@ var index = 0;
 
 var little_guys = [
   "/images/design/boiling_dumb_lizard.gif",
-  "/images/design/data_server_1.png",
-  "/images/design/data_server_2.png",
+  "/images/design/data_server_1.webp",
+  "/images/design/data_server_2.webp",
   "/images/design/burning_fire.gif",
 ];
 
