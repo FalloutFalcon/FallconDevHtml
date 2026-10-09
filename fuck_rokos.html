@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fallcon's</title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link href="/common.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/fuck_rokos.css" rel="stylesheet" type="text/css" media="all" />
     <script src="/fuck_rokos.js"></script>
@@ -17,7 +17,8 @@
             <h1>fallcon&apos;s</h1>
             <a href="/index.html">back</a>
         </header>
-        <iframe class="boxborder" width="560" height="315" title="YouTube video player" frameborder="0" allow="
+        <iframe class="boxborder" width="560" height="315" src="https://www.youtube.com/embed/1400fzt0SHU"
+            title="YouTube video player" frameborder="0" allow="
           accelerometer;
           autoplay;
           clipboard-write;
@@ -26,121 +27,162 @@
           picture-in-picture;
           web-share;
         " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="song_player"></iframe>
-        <button onclick="next_random_song()"></button>
-        <div id="little_guy_div" style="height: 32px;">
+        <input type="image" src="/images/design/next_arrow.png" onclick="next_song()" />
+        <div id="little_guy_div" style="height: 32px">
             <!-- <img src="images/design/boiling_dumb_lizard.gif">
             <img src="images/design/data_server_1.png">
             <img src="images/design/data_server_2.png">
             <img src="images/design/burning_fire.gif"> -->
         </div>
-        
+
         <div class="box">
+            <span><img src="images/design/construction.gif" />
+                Disorganized rant at the moment. I want to structure it better and
+                expand on alot of my thoughts and give some real sources/citations.
+            </span>
+        </div>
 
+        <div class="box">
             <p>
-                Hi. I raw do NOT fuck with AI. Its absurd push into mass adoption for
-                public and commerical use, in my opinion, has been a catastraphic
-                net-negative on socity and my inner community. I've delt with and heard about it with constantly as an
-                internet denizin and open source game maintainer. Thus are my interwoven
-                and complex thoughts on all the harms I belive its doing.
-                Some of these issues arent unique but are being greatly fastfowards or magnifyied by AI.
+                Hi. AI sucks, Bad. <br />
+                Its absurd push into mass adoption for public and commerical use, in
+                my opinion, has been a catastrophic net-negative on society and my
+                inner community. I've delt with and heard about it with constantly as
+                an internet denizin and open source game maintainer. Alot of these
+                topics are very interwoven or complex which makes it difficult to
+                orginize a concrete bullet-points.
             </p>
 
-            <h3>DATA CENTERS SUCK</h3>
-            <p>POWER, WATER, SPACE, ITS ALL SO BAD.</p>
-
-            <h3>Theft (training)</h3>
+            <h3>Resource Consumption</h3>
             <p>
-                So much of machine learning is trained off theft. And so little of it
-                will be punished.
+                LLM's increasing demand for datacenters has lead to a massive rise of
+                usage and construction. Its lead it spiking demands of water and
+                eletrictly in locally affected areas.
+                <br />
+                Costs for computer parts has also massivly spiked due to demand.
+                <a href="https://pcpartpicker.com/trends/price/internal-hard-drive/">PCPartPicker's data</a>
+                shows that even SSDs have spiked upwards of 3x.
+                <a href="https://pcpartpicker.com/trends/price/memory/">They also showcase</a>
+                upwards of 5x the increase for DDR5
             </p>
 
-            <h3>Theft (usecase)</h3>
+            <h3>Theft (companies)</h3>
             <p>
-                So many usecases I've seen are stealing others projects. Vibecoding and
-                repackaging others work. <br />
+                At the start of the AI bubble, companies largely operated at a steal
+                first, ask for forgiveness later apporch to there acquisition of
+                training data. OpenAI and ChatGPT alone are presently in multiple
+                class actions over it. Including
+                <a
+                    href="https://www.courtlistener.com/docket/68117049/the-new-york-times-company-v-microsoft-corporation/">one
+                    being letigated on behalf of New York Times.</a>
+            </p>
+
+            <h3>Theft (consumer)</h3>
+            <p>
+                So many usecases I've seen are stealing others projects. Vibecoding
+                and repackaging others work. <br />
                 This extends to almost all mediums. People spinning up channels,
-                Jacksfilms covers alot of these types of channels. Dododex (and multiple
-                other websites for the game ARK) had its entire contents ripped.
+                Jacksfilms covers alot of these types of channels. Dododex (and
+                multiple other websites for the game ARK) had its entire contents
+                ripped.
                 <a href="https://www.youtube.com/watch?v=C5OC41ls-ZE">Dododex's video about it.</a>
                 Derafog documented in some
                 <a href="https://x.com/Derafog/status/2103343566441591244">tweets</a>
                 and a
-                <a href="https://www.youtube.com/watch?v=R0QVOH_DT_w">great video</a> of
-                examples of this sloppy one prompt rewrites of entire projects.
+                <a href="https://www.youtube.com/watch?v=R0QVOH_DT_w">great video</a>
+                of examples of this sloppy one prompt rewrites of entire projects.
+                <br />
             </p>
             <h3>The Web</h3>
+
             <p>
                 Its filled the internet with unusable, soulless slop. It's left actual
                 websites unusable, burying all media in a wave of AI filth. Search
                 engines have been made so difficult to dredge through that AI is often
                 the "best" soulution.
+                <br />
+                To borrow an amazing graph by Cook Me Plox for a specific exampple,
+                (Whos article is below and you should read it, its one of the best
+                demonstrations of this on the web that im aware of). But the whole
+                internet is being hammered.
             </p>
+            <img width="800px"
+                src="https://oldschool.runescape.wiki/images/thumb/Plugin_Hub_Java_lines_of_code_per_month.png/1000px-Plugin_Hub_Java_lines_of_code_per_month.png?8f023" />
 
             <h3>Slop</h3>
             <p>
-                Theres no soul in any of this. Who wants any of this. I want human made
-                things, things made with passion, with creativy, with sovl. AI has no
-                soul, and anything it touches is stripped of it.
+                Theres no soul in any of this. Who wants any of this. I want human
+                made things, things made with passion, with creativy, with
+                <i>sovl</i>. AI has no soul, and anything it touches is stripped of
+                it. While for most people would only really assert this to subsects of
+                works, specificly highly creative ones, Art, Games, Music. I dont want
+                this in my productivy tools or anything else either.
             </p>
 
             <h3>Mental Stagniation</h3>
             <p>
-                Who needs to think when they have AI. I experienced this myself while in
-                highschool and leaned on it heavily. I had copilot in vscode and I found
-                myself just waiting for its response rather then thinking about anything
-                myself. So many people now resort to this quick and easy feedback which
-                almost never requires critical thinking or digging.
+                Who needs to think when they have AI. I experienced this myself while
+                in highschool and leaned on it heavily. I had copilot in vscode and I
+                found myself just waiting for its response rather then thinking about
+                anything myself. So many people now resort to this quick and easy
+                feedback which almost never requires critical thinking or digging.
+                Just the other night I see a post from a guy who had prompted his way
+                to a decompliation of CoD zombies and loaded it onto a web broweser.
+                <br />
+                <img src="images/ai_non-thinker.png" />
             </p>
 
             <h3>No amateurs allowed</h3>
             <p>
-                One of the things I think AI has done is made it absurdly easy to "skip"
-                being bad at something. "I dont know how to code", "I dont know how to
-                phrase this in a way that gets across my message". They resort to an LLM
-                and deprive themselves from a chance to learn, keeping them trapped and
-                reliant on these machines. I think this also extends to a pressure to
-                preform. I've had days where I really want to reach for a chatbot
-                because I suspect it can give me a quick answer or a quick block of
-                code. Hank Green had recently been exposed for doing similar with his
-                videos.
+                One of the things I think AI has done is made it absurdly easy to
+                "skip" being bad at something. "I dont know how to code", "I dont know
+                how to phrase this in a way that gets across my message". They resort
+                to an LLM and deprive themselves from a chance to learn, keeping them
+                trapped and reliant on these machines. I think this also extends to a
+                pressure to preform. I've had days where I really want to reach for a
+                chatbot because I suspect it can give me a quick answer or a quick
+                block of code. Hank Green had recently been exposed for doing similar
+                with his videos.
             </p>
 
             <h3>Destruction of wisdom transfer and discussion</h3>
             <p>
-                Alot of people WANT people to ask questions about there work! They want
-                people to ask them for help! Stack overflow, for alls its flaws or
-                toxicity, was a place where you got to ask your senior how to solve a
-                thing and you might get a explanation from someone who's been doing it
-                for 5x longer then you. I love helping people with their code, and I've
-                got a bigger context window then grok and im free!!!
+                Alot of people WANT people to ask questions about there work! They
+                want people to ask them for help! Stack overflow, for alls its flaws
+                or toxicity, was a place where you got to ask your senior how to solve
+                a thing and you might get a explanation from someone who's been doing
+                it for 5x longer then you. I love helping people with their code, and
+                I've got a bigger context window then grok and im free!!!
                 <br />
                 I had a experience where I was looking at a project I was recently
                 complaining to for its use of AI. It had even just recently set up a
                 review bot to review prs for him. I saw a contributor functionally
                 begging the project's owner that he wanted a HUMAN review, not some
-                machine. I frankly couldn't stand a second in a project where instead of
-                getting feedback from a real human, I got an answer I coulda gotten from
-                chatGPT in the same time. Its a waste of everyones time.
+                machine. I frankly couldn't stand a second in a project where instead
+                of getting feedback from a real human, I got an answer I coulda gotten
+                from chatGPT in the same time. Its a waste of everyones time.
             </p>
 
             <h3>Paranoia</h3>
             <p>
                 Im... SO tired of searching for marks of the beast. From images, to
-                code, to text. Piss filters, dogshit code, hyphens, Im just so tired of
-                having to filter every interaction on the intertnet with "is this real".
+                code, to text. Piss filters, dogshit code, hyphens, Im just so tired
+                of having to filter every interaction on the intertnet with "is this
+                real".
             </p>
 
             <h3>Witch Trails</h3>
             <p>
-                And on the oposite end of that, some traits of AI have become so commen,
-                that people are now dragged out into mock witch-trails for appearing
-                like AI (BECAUSE AI STOLE FROM US HUMANS), stuff like formal writing is
-                now met with utmost suspusion.
+                And on the oposite end of that, some traits of AI have become so
+                commen, that people are now dragged out into mock witch-trails for
+                appearing like AI (BECAUSE AI STOLE FROM US HUMANS), stuff like formal
+                writing is now met with utmost suspusion.
             </p>
 
             <h3>Psychosis</h3>
             <p>
-                AI-induced psychosis is a real thing that is already causing GREAT harm.
+                AI-induced psychosis is a real thing that is already causing GREAT
+                harm.
                 <a href="https://www.youtube.com/watch?v=VRjgNgJms3Q">Eddy Burback's video</a>
                 is an amazing dive into how easy it is to lead unstable people down
                 paths.
@@ -148,55 +190,67 @@
 
             <h3>Liar</h3>
             <p>
-                It haluicnates because it does not think. Its a prediction model. So it
-                will boldy lie in your face if its the next probable character.
+                It haluicnates because it does not think. Its a prediction model. So
+                it will boldy lie in your face if its the next probable character.
             </p>
 
             <h3>Pay2Win</h3>
             <p>
-                Another terrible thing about AI is the best ones cost money! This meants
-                in a mass adoption scenario (we are here), in order to peform in any
-                given situation you better fork up the cash for that subscription or
-                have a strong enough computor to run local models. While education is
-                ALSO quite pay to win, atleast they cant fucking take it back from you.
+                Another terrible thing about AI is the best ones cost money! This
+                meants in a mass adoption scenario (we are here), in order to peform
+                in any given situation you better fork up the cash for that
+                subscription or have a strong enough computor to run local models.
+                While education is ALSO quite pay to win, atleast they cant fucking
+                take it back from you.
             </p>
+
+            <h3>Notes</h3>
+            Some of these issues arent unique to LLMs but are being greatly
+            fastfowards or magnifyied by AI. Dead Internet theory existed before AI
+            for example but its adoption has been made increadibly easy to flood the
+            internet. Crypto and NFTs spiked the price of alot of computer parts but
+            AI has held them up even after the both trends popped.
 
             <h3>Im tired</h3>
             <p>
                 Im so just tired... Every day on (or even off) the internet im exposed
                 to it. Im worn out and exhausted. I dont want to think about these
-                stupid machines. CLANKERS DNI! IF ROKO'S BASILISK IS REAL IT CAN SUCK MY
-                HUMAN-MADE BALLS!!!!
+                stupid machines. CLANKERS DNI! IF ROKO'S BASILISK IS REAL IT CAN SUCK
+                MY HUMAN-MADE BALLS!!!!
             </p>
 
             <h3>BUT KEEP MAKING STUFF</h3>
             <p>
                 To reiterate an earlier point and despite how much recent dread I've
-                had, PEOPLE WANT STUFF MADE BY HUMANS. KEEP MAKING THINGS! Even if they
-                suck a little! You get better! I love all of you!
+                had, PEOPLE WANT STUFF MADE BY HUMANS. KEEP MAKING THINGS! Even if
+                they suck a little! You get better! I love all of you!
             </p>
 
             <h4>Further Reading.</h4>
             <h5>Reading</h5>
             <a
                 href="https://oldschool.runescape.wiki/w/User:Cook_Me_Plox/OSRS_Wiki_and_RuneLite_are_increasingly_under_strain_from_low-effort_AI_development">
-                OSRS Wiki and RuneLite are increasingly under strain from low-effort AI development - Cook Me Plox
-            </a>: SUCH a good disection of the strain the osrs wiki and plugin hub is under.
+                OSRS Wiki and RuneLite are increasingly under strain from low-effort
+                AI development - Cook Me Plox </a>: SUCH a good disection of the strain the osrs wiki and plugin hub is
+            under.
             <h5>Videos</h5>
             <a href="https://www.youtube.com/watch?v=amvQ7Q1C85o">Selling out to AI - Chet Faliszek</a>
             <a href="https://www.youtube.com/watch?v=F4KQ8wBt1Qg">Things AI Will Never Understand - Fractal
                 Philosophy</a>
             <a href="https://youtu.be/B-ul3b0lz-o?si=sE_5dtNTVIgeZV0n">How to Survive the Death of the Internet -
-                Fractal
-                Philosophy</a>
+                Fractal Philosophy</a>
             <a href="https://www.youtube.com/watch?v=VRjgNgJms3Q">ChatGPT made me delusional - Eddy Burback</a>
             <a href="https://www.youtube.com/watch?v=R0QVOH_DT_w">AI is Killing VRChat - Derafog</a>
+            <h5>Sources</h5>
+            <a href="https://ailawsuittracker.com/companies/openai/">ailawsuittracker.com</a>
+            serves as a good way to track down the status of alot of the lawsuits
+            being levied against AI companies.
         </div>
 
         <footer>
             <p class="pt-10 text-[pink]">© 2026 fallcon&apos;s</p>
             <a href="https://notbyai.fyi" target="_blank"><img src="/images/created-by-a-human.png"
-                    style="margin-right: 30px;"></a>
+                    style="margin-right: 30px" /></a>
         </footer>
     </main>
 </body>
